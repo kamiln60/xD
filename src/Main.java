@@ -1,17 +1,65 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import javax.swing.JFrame;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+       //Scanner scanner = new Scanner(System.in);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+       /*
+        System.out.print("podaj imie\n");
+
+        String wprowadzonyTekst1 = scanner.nextLine();
+        System.out.println(wprowadzonyTekst1);
+        System.out.print("Wprowadź liczbę całkowitą: ");
+        int wprowadzonaLiczba = scanner.nextInt();
+        System.out.println("Wprowadzona liczba całkowita: " + wprowadzonaLiczba);
+
+
+        System.out.print("wprowadz terazz liczbę inną");
+        int nastliczba = scanner.nextInt();
+        System.out.println(nastliczba);
+
+        scanner.nextLine();
+
+        */
+        /*
+        *Czasami może wystąpić problem z wczytywaniem ciągu znaków po wczytaniu liczby całkowitej.
+        *Po wczytaniu liczby całkowitej, znak nowej linii pozostaje w buforze klawiatury,
+        *co może spowodować, że kolejne wywołanie nextLine() wczyta pustą linię (znak nowej linii)
+        */
+/*
+        System.out.print("a teraz przepustkę poproszę");
+
+        String pass = scanner.nextLine();
+
+        System.out.println(pass);
+
+        scanner.close();
+*/
+        //System.out.println("Hello and welcome!");
+       // String tekst = scanner.nextLine();
+
+        //System.out.println("Wprowadzony tekst: " + tekst);
+        //scanner.close();
+
+        /* // wyświetlanie okna
+        JFrame frame = new JFrame();
+        frame.setSize(640, 480);
+        frame.setVisible(true);
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
+        */
+
+     /*
+     Cake myCake = new Cake("apple","ApplePie",150.0,25.150);
+     myCake.wyswietlInformacje();*/
+
     }
 }
